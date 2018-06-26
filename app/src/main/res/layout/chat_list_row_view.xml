@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/dp_20"
+    android:paddingStart="@dimen/dp_20"
+    android:paddingEnd="@dimen/dp_20">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:id="@+id/sdv_chat_image"
+        android:layout_marginEnd="@dimen/dp_10"
+        app:roundAsCircle="true"
+        android:scaleType="centerCrop"
+        app:placeholderImage="@drawable/ic_signup_avatar"/>
+
+    <!--<TextView
+        android:layout_width="@dimen/d_contact_image"
+        android:layout_height="@dimen/d_contact_image"
+        android:id="@+id/tv_chat_image"
+        android:visibility="gone"
+        android:layout_marginEnd="@dimen/d_contact_user_view_padding"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="@dimen/s_contact_initials_textSize"
+        android:background="@drawable/contact_image"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_chat_contact_name"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_18"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@id/sdv_chat_image"
+        android:layout_alignTop="@id/sdv_chat_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_chat_last_msg"
+        android:textSize="@dimen/sp_18"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@id/sdv_chat_image"
+        android:layout_alignBottom="@id/sdv_chat_image"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.5"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/tv_chat_last_msg"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_alignStart="@id/tv_chat_last_msg"/>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_receiver"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/dp_8"
+    android:layout_marginStart="@dimen/dp_8"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/dp_10" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/tv_receiver_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dp_250"
+        android:textSize="@dimen/sp_18"
+        android:background="@drawable/message_background"
+        android:padding="@dimen/dp_10"
+        tools:text="Mesnhjk,bhkjbjkbjmbnmbnmbnmbnmbnmbnmbnmbnmbnmbnmsage"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/dp_10"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="@dimen/dp_250"
+            android:layout_height="@dimen/dp_250"
+            fresco:placeholderImage="@drawable/ic_default"
+            android:id="@+id/sdv_receiver"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:visibility="gone"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb_image_loader_receiver"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <!--<com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="@dimen/d_250dp"
+        android:layout_height="@dimen/d_250dp"
+        android:id="@+id/sdv_receiver"
+        android:visibility="gone"
+        fresco:placeholderImage="@drawable/ic_default"
+        android:layout_marginBottom="@dimen/d_message_time_margin"/>-->
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="@dimen/dp_250"
+        android:layout_height="@dimen/dp_250"
+        android:id="@+id/sdv_location_receiver"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        fresco:placeholderImage="@drawable/ic_map_placeholder"
+        android:layout_marginBottom="@dimen/dp_10"/>
+</LinearLayout>

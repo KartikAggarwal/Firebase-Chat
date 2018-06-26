@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Chit Chat</string>
+    <string name="verify_number_title">Welcome To Chit Chat</string>
+    <string name="instruction">Enter your phone number to Create a Chit Chat account, Please verify your \n phone number \nor facebook account</string>
+    <string name="country">Country</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="phone_no_hint">Required</string>
+    <string name="verify_btn_text">Verify Phone Number</string>
+    <string name="terms_privacy_policy">By Signing up, you agree to Chit Chat\'s Terms of Services and Privacy Policy.</string>
+    <string-array name="country">
+        <item>India (+91)</item>
+        <item>Pakistan (+92)</item>
+        <item>Egypt (+20)</item>
+        <item>America (+680)</item>
+        <item>Australia (+61)</item>
+        <item>Argentina (+54)</item>
+        <item>Brazil (+55)</item>
+        <item>Canada (+1)</item>
+        <item>China (+86)</item>
+    </string-array>
+    <string name="enter_number">Enter Number(This Field is Mandatory)</string>
+    <string name="enter_name">Enter Name (First Name and Last Name is Mandatory)</string>
+    <string name="facebook_app_id">886312214854834</string>
+    <string name="first_name">firstName</string>
+    <string name="last_name">lastName</string>
+    <string name="profile_pic">profilePic</string>
+    <string name="isFbLogin">isFbLogin</string>
+    <string name="phone_num">phoneNo</string>
+    <string name="sign_up_title">SIGN UP</string>
+    <string name="sign_up_create_profile">Now Let\'s Create Your Profile</string>
+    <string name="btn_done">Done</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="number_verified">VERIFIED</string>
+    <string name="number_not_verified">ERROR</string>
+    <string name="validate_name">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="contact_text">Contacts</string>
+    <string name="chat_text">Chat</string>
+    <string name="btn_facebook">Sign Up With Facebook</string>
+    <string name="invite_friend">Invite your Friends</string>
+    <string name="btn_invite_text">Invite</string>
+    <string name="btn_send">Send</string>
+    <string name="user_id">userID</string>
+    <string name="receiver_no">receiver_num</string>
+    <string name="receiver_name">receiver_name</string>
+    <string name="chat_dont_see_text">Don\'t see who you are looking for?</string>
+    <string name="btn_add_friend">Add Friends</string>
+    <string name="user_registered">Registered</string>
+    <string name="user_already_exists">User Already Exists</string>
+    <string name="txt_cancel">cancel</string>
+    <string name="txt_fail">Failed</string>
+    <string name="txt_error">Error</string>
+    <string name="txt_invalid">Invalid Number</string>
+    <string name="btn_no">No</string>
+    <string name="btn_yes">Yes</string>
+    <string name="share_location">Share Location</string>
+    <string name="confirm_share_location_text">Do you want to send your location to </string>
+    <string name="settings_title">Settings</string>
+    <string name="enter_something">Please Enter SomeThing</string>
+    <string name="number_digits">0123456789</string>
+    <string name="sent_text">Sent</string>
+    <string name="seen_text">Seen</string>
+    <string name="search">Search...</string>
+    <string name="press_again">Press again to exit</string>
+    <string name="typing">typing...</string>
+    <string name="last_seen">Last Seen At : </string>
+    <string name="online">Online</string>
+    <string name="maximum_media">You can\'t select more then 5 images</string>
+    <string name="API_KEY">AIzaSyAQPxW11jLL6evM_3woygbMM_iJb05eE_o</string>
+    <string name="no_internet">No Internet...Can\'t send image</string>
+    <string name="no_connection">No Internet...Please connect to Network</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dp_20"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_45"
+        android:id="@+id/iv_invite_friend"
+        android:layout_marginEnd="@dimen/d_contact_user_view_padding"
+        android:background="@drawable/invite_ring"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_invite"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_invite_friend"
+        android:text="@string/invite_friend"
+        android:textSize="@dimen/sp_18"
+        android:layout_toEndOf="@id/iv_invite_friend"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.5"
+        android:background="@android:color/black"
+        android:layout_below="@id/iv_invite_friend"
+        android:layout_alignStart="@id/tv_invite_friend"/>
+
+</RelativeLayout>

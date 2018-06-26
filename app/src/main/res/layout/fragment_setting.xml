@@ -1,0 +1,15 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chitchat.fragments.SettingFragment">
+
+<include layout="@layout/toolbar_view"/>
+    <ImageView
+        android:layout_width="@dimen/dp_250"
+        android:layout_height="@dimen/dp_250"
+        android:layout_gravity="center"
+        android:id="@+id/iv_under_construction"
+        android:src="@drawable/ic_setting"/>
+</FrameLayout>

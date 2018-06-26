@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="@dimen/dp_5"
+    android:layout_marginTop="@dimen/dp_8"
+    android:gravity="end"
+    android:id="@+id/ll_sender"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/dp_10" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/message_background"
+        android:maxWidth="@dimen/dp_250"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_10"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/sp_18"
+        tools:text="Mesnhjk,bhkjbjkbjmbnmbnmbnmbnmbnmbnmbnmbnmbnmbnmsage" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="@dimen/dp_250"
+            android:layout_height="@dimen/dp_250"
+            fresco:placeholderImage="@drawable/ic_default"
+            android:id="@+id/sdv_sender"
+            android:visibility="gone"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb_image_loader_sender"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="@dimen/dp_250"
+        android:layout_height="@dimen/dp_250"
+        android:id="@+id/sdv_location_sender"
+        android:scaleType="centerInside"
+        fresco:placeholderImage="@drawable/ic_map_placeholder"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_message_status"
+        tools:text="nlknono"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"/>
+
+</LinearLayout>

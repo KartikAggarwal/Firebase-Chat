@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/dp_20"
+    android:paddingStart="@dimen/dp_20"
+    android:paddingEnd="@dimen/dp_20">
+
+    <TextView
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:id="@+id/tv_contact_image"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="@dimen/sp_22"
+        android:background="@drawable/contact_image"/>
+
+    <Button
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_30"
+        android:id="@+id/b_invite"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="@string/btn_invite_text"
+        android:textAllCaps="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/tv_contact_image"
+        android:background="@drawable/verify_btn"
+        android:visibility="visible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_contact_name"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_toStartOf="@id/b_invite"
+        android:layout_marginEnd="@dimen/dp_10"
+        tools:text="jvfhvriivbiuvbibibivbiuefbvibrivbiubviubvuibiuvbifvbifebiufbivubifubiufvbiufbifubiuvejvbvbvebvii"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@id/tv_contact_image"
+        android:layout_alignTop="@id/tv_contact_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_contact_number"
+        android:textSize="@dimen/sp_18"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_toStartOf="@id/b_invite"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@id/tv_contact_image"
+        android:layout_alignBottom="@id/tv_contact_image"/>
+
+</RelativeLayout>

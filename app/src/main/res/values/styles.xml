@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/app_color</item>
+    </style>
+
+    <style name="chat_screen_icon_style">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="edit_text_style">
+        <item name="android:digits">@string/validate_name</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="app_margin_style">
+        <item name="android:background">@drawable/verify_btn</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="verify_layout_style">
+        <item name="android:layout_marginStart">@dimen/d_app_padding</item>
+        <item name="android:layout_marginEnd">@dimen/d_app_padding</item>
+    </style>
+
+    <style name="span_text">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

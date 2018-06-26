@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="fab_margin">8dp</dimen>
+
+
+    <!--
+ Default screen margins, per the Android Design guidelines.
+-->
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_0.5">0.4dp</dimen>
+    <dimen name="dp_1">0.9dp</dimen>
+    <dimen name="dp_2">1.6dp</dimen>
+    <dimen name="dp_3">2.5dp</dimen>
+    <dimen name="dp_4">3.4dp</dimen>
+    <dimen name="dp_5">4.1dp</dimen>
+    <dimen name="dp_6">5dp</dimen>
+    <dimen name="dp_7">5.9dp</dimen>
+    <dimen name="dp_8">6.6dp</dimen>
+    <dimen name="dp_9">7.5dp</dimen>
+    <dimen name="dp_10">8.4dp</dimen>
+    <dimen name="dp_11">9.12dp</dimen>
+    <dimen name="dp_12">10dp</dimen>
+    <dimen name="dp_13">10.9dp</dimen>
+    <dimen name="dp_14">11.6dp</dimen>
+    <dimen name="dp_15">12.3dp</dimen>
+    <dimen name="dp_16">13.7dp</dimen>
+    <dimen name="dp_17">14.1dp</dimen>
+    <dimen name="dp_18">15dp</dimen>
+    <dimen name="dp_19">15.9dp</dimen>
+    <dimen name="dp_20">16.6dp</dimen>
+    <dimen name="dp_21">17.5dp</dimen>
+    <dimen name="dp_22">18.4dp</dimen>
+    <dimen name="dp_23">19.1dp</dimen>
+    <dimen name="dp_24">20dp</dimen>
+    <dimen name="dp_25">20.9dp</dimen>
+    <dimen name="dp_26">21.6dp</dimen>
+    <dimen name="dp_27">22.5dp</dimen>
+    <dimen name="dp_28">23.4dp</dimen>
+    <dimen name="dp_29">24.1dp</dimen>
+    <dimen name="dp_30">25dp</dimen>
+    <dimen name="dp_32">26.6dp</dimen>
+    <dimen name="dp_34">28.4dp</dimen>
+    <dimen name="dp_35">29.1dp</dimen>
+    <dimen name="dp_36">30dp</dimen>
+    <dimen name="dp_38">31.6dp</dimen>
+    <dimen name="dp_40">33.4dp</dimen>
+    <dimen name="dp_42">35dp</dimen>
+    <dimen name="dp_44">36.6dp</dimen>
+    <dimen name="dp_45">37.5dp</dimen>
+    <dimen name="dp_46">38.4dp</dimen>
+    <dimen name="dp_48">40dp</dimen>
+    <dimen name="dp_50">41.7dp</dimen>
+    <dimen name="dp_55">45.8dp</dimen>
+    <dimen name="dp_60">50dp</dimen>
+    <dimen name="dp_65">54.1dp</dimen>
+    <dimen name="dp_70">58.3dp</dimen>
+    <dimen name="dp_75">62.5dp</dimen>
+    <dimen name="dp_80">66.6dp</dimen>
+    <dimen name="dp_85">70.9dp</dimen>
+    <dimen name="dp_86">71.6dp</dimen>
+    <dimen name="dp_87">72.5dp</dimen>
+    <dimen name="dp_90">75dp</dimen>
+    <dimen name="dp_95">79.1dp</dimen>
+    <dimen name="dp_100">83.4dp</dimen>
+    <dimen name="dp_110">91.6dp</dimen>
+    <dimen name="dp_115">95.5dp</dimen>
+    <dimen name="dp_120">100dp</dimen>
+    <dimen name="dp_130">108.4dp</dimen>
+    <dimen name="dp_140">116.6dp</dimen>
+    <dimen name="dp_150">125dp</dimen>
+    <dimen name="dp_160">133.4dp</dimen>
+    <dimen name="dp_170">141.6dp</dimen>
+    <dimen name="dp_180">150dp</dimen>
+    <dimen name="dp_190">158.4dp</dimen>
+    <dimen name="dp_200">166.6dp</dimen>
+    <dimen name="dp_220">183.4dp</dimen>
+    <dimen name="dp_250">208.4dp</dimen>
+    <dimen name="dp_300">250dp</dimen>
+    <dimen name="dp_350">292dp</dimen>
+    <dimen name="dp_400">334dp</dimen>
+    <dimen name="dp_450">562.5dp</dimen>
+    <dimen name="dp_500">417dp</dimen>
+    <dimen name="sp_6">5sp</dimen>
+    <dimen name="sp_7">5.9sp</dimen>
+    <dimen name="sp_8">6.6sp</dimen>
+    <dimen name="sp_9">7.5sp</dimen>
+    <dimen name="sp_10">8.4sp</dimen>
+    <dimen name="sp_11">9.1sp</dimen>
+    <dimen name="sp_12">10sp</dimen>
+    <dimen name="sp_13">10.9sp</dimen>
+    <dimen name="sp_14">11.6sp</dimen>
+    <dimen name="sp_15">12.5sp</dimen>
+    <dimen name="sp_16">13.4sp</dimen>
+    <dimen name="sp_17">14.1sp</dimen>
+    <dimen name="sp_18">15sp</dimen>
+    <dimen name="sp_19">15.9sp</dimen>
+    <dimen name="sp_20">16.6sp</dimen>
+    <dimen name="sp_21">17.5sp</dimen>
+    <dimen name="sp_22">18.8sp</dimen>
+    <dimen name="sp_23">19.1sp</dimen>
+    <dimen name="sp_24">20sp</dimen>
+    <dimen name="sp_25">20.9sp</dimen>
+    <dimen name="sp_26">21.6sp</dimen>
+    <dimen name="sp_27">22.5sp</dimen>
+    <dimen name="sp_28">23.4sp</dimen>
+    <dimen name="sp_29">24.1sp</dimen>
+    <dimen name="sp_30">25sp</dimen>
+    <dimen name="sp_32">27.1sp</dimen>
+    <dimen name="sp_34">28.4sp</dimen>
+    <dimen name="sp_36">30sp</dimen>
+    <dimen name="sp_38">31.6sp</dimen>
+    <dimen name="sp_40">33.4sp</dimen>
+    <dimen name="sp_45">37.5sp</dimen>
+    <dimen name="sp_50">41.6sp</dimen>
+    <dimen name="view_height_width">0.6dp</dimen>
+
+
+</resources>

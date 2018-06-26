@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:padding="@dimen/dp_10"
+        android:background="@android:color/darker_gray">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_search_contact"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            android:gravity="center"
+            android:maxLines="1"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:maxLength="50"
+            android:minHeight="@dimen/dp_35"
+            android:background="@drawable/search_view"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_contacts"
+        android:layout_marginBottom="@dimen/dp_80"/>
+</LinearLayout>

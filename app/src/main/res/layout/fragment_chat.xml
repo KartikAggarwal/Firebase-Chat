@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_view"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chat_icon"
+        android:id="@+id/iv_add_friend"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_50"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_dont_see"
+        android:layout_marginTop="@dimen/d_chat_add_friend_icon_marginTop"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/sp_16"
+        android:text="@string/chat_dont_see_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_add_friend"
+        android:textSize="@dimen/s_verify_btn_textSize"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:text="@string/btn_add_friend"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/d_add_friend_btn_marginTop"
+        style="@style/app_margin_style"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_chat_list"
+        android:layout_marginBottom="@dimen/dp_70"
+        android:visibility="gone"/>
+
+</LinearLayout>
